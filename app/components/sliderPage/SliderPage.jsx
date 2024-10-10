@@ -41,9 +41,9 @@ const ImageSlider = () => {
           </div>
         ))}
       </Slider>
-      {/* <div className={`container ${styles.headerText}`}>
+      <div className={`container ${styles.headerText}`}>
       <h1><span>Professional Greenhouse Building,</span> Renting and Trainings.</h1>
-      </div> */}
+      </div>
     </div>
   );
 };
