@@ -6,10 +6,16 @@
     gap: 1rem;
     padding: 1.5rem 2rem;
 }
-.bigContainer{
+/* .bigContainer{
     display: flex;
     gap: .0.8rem;
     align-items: center;
+} */
+.bigCatContainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    overflow-x: hidden;
 }
 .title{ 
     text-align:center; 

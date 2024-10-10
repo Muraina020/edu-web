@@ -19,7 +19,7 @@ const Catalog = () => {
     <section className={`container ${styles.catalog}`}>
        <h2 className={styles.title}>Greenhouse Services</h2>
        <p className={styles.productText}>We are a leading greenhouse manufacturer and supplier, providing comprehensive design solutions and turnkey project services. </p>
-       <div className={styles.bigContainer}>
+       <div className={styles.bigCatContainer}>
     <div className={styles.catalogCon}>
       <div className={styles.catalogImg}>
         <Link href='/contact' className={styles.catalogLink}>
