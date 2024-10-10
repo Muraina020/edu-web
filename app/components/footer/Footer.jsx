@@ -12,11 +12,11 @@ const Footer = () => {
     <div className={styles.contactLeft}>
       <h3 className={styles.contactTitle}>CONTACT US</h3>
       <ul className={styles.contactLeftTxt}>
-        <li> <Image src={LocationIcon} alt='' className={styles.footerImg}/>Adress: Kigali 
+        <li> <Image src={LocationIcon} alt='location' className={styles.footerImg}/>Adress: Kigali 
 District, Nyarugenge 
 Road name, KN78 st Rwanda</li>
-        <li> <Image src={EmailIcon} alt='' className={styles.footerImgEmail}/>Phone: +250787552411</li>
-        <li>  <Image src={PhoneIcon} alt='' className={styles.footerImg}/>Email: adelineniwenshuti@gmail.com</li>
+        <li> <Image src={EmailIcon} alt='email' className={styles.footerImgEmail}/>Phone: +250787552411</li>
+        <li>  <Image src={PhoneIcon} alt='call' className={styles.footerImg}/>Email: adelineniwenshuti@gmail.com</li>
       </ul>
     </div>
     <div className={styles.contactRight}>

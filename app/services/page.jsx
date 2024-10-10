@@ -2,11 +2,12 @@ import React from 'react'
 import styles from "./services.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
-import House1 from "../assets/House1.jpg"
-import House2 from "../assets/House2.jpg"
-import House3 from "../assets/House3.jpg"
-import House4 from "../assets/House4.jpg"
-import House6 from "../assets/House6.jpg"
+import Construct1 from "../assets/construct.jpg"
+import Construct2 from "../assets/construct2.jpg"
+import Construct3 from "../assets/construct3.jpg"
+import Construct4 from "../assets/construct4.jpg"
+import Construct5 from "../assets/construct5.jpg"
+import Construct6 from "../assets/construct6.jpg"
 import SectionHeader from '../components/section-header/SectionHeader'
 
 const page = () => {
@@ -16,37 +17,37 @@ const page = () => {
     <div className={`container ${styles.bigContainer}`}>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={House1} alt="" />
+        <Image src={Construct1} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={House2} alt="" />
+        <Image src={Construct2} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={House3} alt="" />
+        <Image src={Construct3} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={House4} alt="" />
+        <Image src={Construct4} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={House6} alt="" />
+        <Image src={Construct5} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={House1} alt="" />
+        <Image src={Construct6} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>
