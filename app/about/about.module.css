@@ -21,6 +21,7 @@
 
 .aboutContent p{
   margin-top: 0.8rem;
+  font-size: 18px;
 }
 .aboutCta{
     display: inline-block;

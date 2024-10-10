@@ -8,6 +8,9 @@ import Construct3 from "../assets/construct3.jpg"
 import Construct4 from "../assets/construct4.jpg"
 import Construct5 from "../assets/construct5.jpg"
 import Construct6 from "../assets/construct6.jpg"
+import Training1 from "../assets/training.jpg"
+import Training2 from "../assets/training2.jpg"
+import Training3 from "../assets/training3.jpg"
 import SectionHeader from '../components/section-header/SectionHeader'
 
 const page = () => {
@@ -19,19 +22,19 @@ const page = () => {
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct1} alt="" />
         </Link>
-        <span className={styles.catalogText}>multi span greenhouse</span>
+        <span className={styles.catalogText}>greenhouse construction field</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct2} alt="" />
         </Link>
-        <span className={styles.catalogText}>multi span greenhouse</span>
+        <span className={styles.catalogText}>greenhouse construction field</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct3} alt="" />
         </Link>
-        <span className={styles.catalogText}>multi span greenhouse</span>
+        <span className={styles.catalogText}>greenhouse</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
@@ -48,6 +51,24 @@ const page = () => {
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct6} alt="" />
+        </Link>
+        <span className={styles.catalogText}>greenhouse construction field</span>
+    </div>
+    <div className={styles.catalogCon}>
+      <Link href='/services' className={styles.catalogImg}>
+        <Image src={Training1} alt="" />
+        </Link>
+        <span className={styles.catalogText}>greenhouse training filed</span>
+    </div>
+    <div className={styles.catalogCon}>
+      <Link href='/services' className={styles.catalogImg}>
+        <Image src={Training2} alt="" />
+        </Link>
+        <span className={styles.catalogText}>greenhouse training field</span>
+    </div>
+    <div className={styles.catalogCon}>
+      <Link href='/services' className={styles.catalogImg}>
+        <Image src={Training3} alt="" />
         </Link>
         <span className={styles.catalogText}>multi span greenhouse</span>
     </div>

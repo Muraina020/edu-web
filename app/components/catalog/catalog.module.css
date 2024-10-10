@@ -39,7 +39,7 @@
    
 }
 .catalogCon:hover{
-    border:#383838 solid 1px;
+    border:#039654 solid 1px;
 }
 
 .catalogImg {
@@ -120,22 +120,38 @@
     .catalog{
         display: flex;
         flex-direction: column;
-        /* padding: 1.5rem 2rem; */
+        margin-top: 10px;
+        align-items: center;
+        gap: 1rem;
+        padding: 5px 2rem;
     }
-    .bigContainer{
+    .bigCatContainer{
         display: flex;
         flex-direction: column;
         gap: 2rem;
       
     }
     .catalogCon{
-        width: 100%;
+       width: 330px;
     }
     .catalogImg{
         width: 100%;
     }
     .productText{
         width: 100%;
+    }
+    .ctaBtn{
+
+        background:  #264501;
+        width: 320px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        border: none;
     }
     
     

@@ -27,7 +27,7 @@ const ImageSlider = () => {
 
   return (
     <div className={styles.image__slider__container}>
-      <Slider {...settings}>
+      <Slider {...settings} className={styles.slider}>
         {images.map((image, index) => (
           <div key={index}>
             <Image
@@ -37,6 +37,7 @@ const ImageSlider = () => {
               height={600} // Set appropriate height
               style={{ width: '100%', height: 'auto' }} // Responsive styles
               priority={true} // Optionally, prioritize image loading
+              className={styles.sliderImage} 
             />
           </div>
         ))}

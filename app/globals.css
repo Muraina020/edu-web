@@ -235,6 +235,7 @@ textarea::placeholder {
 
   .container {
     width: var(--container-width-md);
+
   }
 
   section > p {

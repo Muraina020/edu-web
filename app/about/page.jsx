@@ -13,10 +13,11 @@ const page = () => {
         <Image src={AboutImage} alt=''/>
       </article>
       <article className={styles.aboutContent}>
-        <h4>Deryne Greenhouse</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, amet neque aliquam saepe cum odio incidunt perferendis laborum fugit vitae? </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et magnam molestiae ducimus nihil fugit praesentium neque distinctio, consequatur ipsa. Excepturi vitae molestias libero ullam quis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat velit dolores vero quo totam. Sint sed distinctio ipsum error facere ullam esse non? A repellat aperiam doloremque praesentium magni dolorem amet ut harum sequi, aspernatur culpa dolore in reiciendis laudantium optio dolor accusantium! Distinctio dolorum exercitationem nam cumque pariatur praesentium fuga libero obcaecati, aliquam perferendis corrupti amet explicabo maxime tenetur quisquam quis non corporis totam minus mollitia dolorem error? At et aliquid aspernatur illo sed dicta? Et, voluptatum! Nobis, ex! </p>
+        <h3>About Deryne Greenhouse</h3>
+        <p><b>Vision:</b> To revolutionize small-scale farming by providing accessible, climate-resilient greenhouses, empowering farmers to maximize productivity and contribute to sustainable food security.
+        </p>
+        <p><b>Mission:</b> To deliver affordable, high-quality leased greenhouses with cutting-edge climate control and irrigation systems, paired with comprehensive training, enabling small-scale farmers to boost yields, protect crops, and thrive in changing environmental conditions.</p>
+        <p><b>Solution:</b> Deryne Greenhouse offers a subscription-based service that provides small-scale farmers with leased greenhouses equipped with advanced climate control and irrigation systems. Along with the technology, farmers receive training and support to effectively manage their greenhouses, optimize crop growth, and protect their produce from adverse weather conditions. This affordable and comprehensive solution empowers farmers to increase yields, improve crop quality, and achieve sustainable farming practices, all while reducing risks associated with changing environmental factors.</p>
         {/* <a href="../assets/cv.pdf" className={`btn primary ${styles.aboutCta}`} download rel='noopener noreferrer'>Download cv</a> */}
       </article>
     </div>
