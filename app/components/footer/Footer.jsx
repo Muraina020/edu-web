@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./footer.module.css"
-import PhoneIcon from "../../assets/PhoneIcon.png"
-import EmailIcon from "../../assets/emailIcon.png"
+import Call from "../../assets/call.png"
+import Mail from "../../assets/mail.png"
 import LocationIcon from "../../assets/locationIcon.png"
 import Image from 'next/image'
 
@@ -15,8 +15,8 @@ const Footer = () => {
         <li> <Image src={LocationIcon} alt='location' className={styles.footerImg}/>Adress: Kigali 
 District, Nyarugenge 
 Road name, KN78 st Rwanda</li>
-        <li> <Image src={EmailIcon} alt='email' className={styles.footerImgEmail}/>Phone: +250787552411</li>
-        <li>  <Image src={PhoneIcon} alt='call' className={styles.footerImg}/>Email: adelineniwenshuti@gmail.com</li>
+        <li> <Image src={Call} alt='email' className={styles.footerImg}/>Phone: +250787552411</li>
+        <li>  <Image src={Mail} alt='call' className={styles.footerImg}/>Email: adelineniwenshuti@gmail.com</li>
       </ul>
     </div>
     <div className={styles.contactRight}>
