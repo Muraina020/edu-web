@@ -22,55 +22,55 @@ const page = () => {
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct1} alt="" />
         </Link>
-        <span className={styles.catalogText}>greenhouse construction field</span>
+        <span className={styles.catalogText}>greenhouse catalog</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct2} alt="" />
         </Link>
-        <span className={styles.catalogText}>greenhouse construction field</span>
+        <span className={styles.catalogText}>greenhouse catalog</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct3} alt="" />
         </Link>
-        <span className={styles.catalogText}>greenhouse</span>
+        <span className={styles.catalogText}>greenhouse building</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct4} alt="" />
         </Link>
-        <span className={styles.catalogText}>multi span greenhouse</span>
+        <span className={styles.catalogText}>greenhouse bilding</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct5} alt="" />
         </Link>
-        <span className={styles.catalogText}>multi span greenhouse</span>
+        <span className={styles.catalogText}>greenhouse catalog</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Construct6} alt="" />
         </Link>
-        <span className={styles.catalogText}>greenhouse construction field</span>
+        <span className={styles.catalogText}>greenhouse building</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Training1} alt="" />
         </Link>
-        <span className={styles.catalogText}>greenhouse training filed</span>
+        <span className={styles.catalogText}>greenhouse research</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Training2} alt="" />
         </Link>
-        <span className={styles.catalogText}>greenhouse training field</span>
+        <span className={styles.catalogText}>Simple greenhouse building</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
         <Image src={Training3} alt="" />
         </Link>
-        <span className={styles.catalogText}>multi span greenhouse</span>
+        <span className={styles.catalogText}>greenhouse building</span>
     </div>
     </div>
     </section>

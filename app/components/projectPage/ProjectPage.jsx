@@ -13,7 +13,7 @@ const ProjectPage = () => {
   return (
     <section className={`container ${styles.catalog}`}>
        <h2 className={styles.title}>Greenhouse Projects</h2>
-       <p className={styles.productText}>We have executed many greenhouse projects and trainings across Rwanda and this has erned us many awards of excellence.</p>
+       <p className={styles.productText}>We help farmers adapt to smart agriculture as a means to increase productivity</p>
        <div className={styles.bigContainer}>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
