@@ -16,8 +16,7 @@ const Projects = ({projects}) => {
             <h4>{title}</h4>
             <p>{desc}</p>
             <div className={styles.cta}>
-          <Link href={demo} className={`${styles.btn} ${styles.primary} `} target='_blank' rel='noopener noreferrer'>Demo</Link>
-          {/* <Link href={github} className={`${styles.btn}`} target='_blank' rel='noopener noreferrer'>Github</Link> */}
+          <Link href={demo} className={`${styles.btn} ${styles.primary} `} rel='noopener noreferrer'>Contact</Link>
             </div>
         </div>
     </Card>)

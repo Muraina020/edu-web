@@ -18,7 +18,7 @@ const Catalog = () => {
   return (
     <section className={`container ${styles.catalog}`}>
        <h2 className={styles.title}>Greenhouse Services</h2>
-       <p className={styles.productText}>We are a leading greenhouse manufacturer and supplier, providing comprehensive design solutions and turnkey project services. </p>
+       <p className={styles.productText}>we provide greenhouses equipped with advanced climate control and irrigation systems. Along with the technology, farmers receive training and support to effectively manage their greenhouses, optimize crop growth, and protect their produce from adverse weather conditions</p>
        <div className={styles.bigCatContainer}>
     <div className={styles.catalogCon}>
       <div className={styles.catalogImg}>
