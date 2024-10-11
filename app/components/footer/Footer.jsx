@@ -19,7 +19,7 @@ const Footer = () => {
                 alt="location"
                 className={styles.footerImg}
               />
-              Location: Kigali District, Nyarugenge Road name, KN78 st
+              Location: Kigali City, Nyarugenge District, KN78 st 
             </li>
             <li>
               {" "}
