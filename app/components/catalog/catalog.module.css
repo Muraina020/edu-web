@@ -108,8 +108,9 @@
     padding: 0.4rem;
 }
 .ctaBtn{
-    background:  #264501;
-    width: 240px;
+    /* background:  #264501; */
+    background:  #9dd05a;
+    width: 250px;
     height: 35px;
     display: flex;
     align-items: center;
@@ -146,7 +147,7 @@
     }
     .ctaBtn{
 
-        background:  #264501;
+        background:   #9dd05a;
         width: 320px;
         height: 35px;
         display: flex;

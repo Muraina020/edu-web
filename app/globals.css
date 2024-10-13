@@ -190,7 +190,8 @@ section > p {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
+  background: #9dd05a;
 }
 
 
