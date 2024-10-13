@@ -8,6 +8,13 @@ const page = () => {
   return (
     <section>
     <SectionHeader title="About Me" subtitle="Who are we and what we do"/>
+    <header className={`container ${styles.header}`}>
+      <div className={`container ${styles.headerText}`}>
+      <h2>ABOUT DERYNE GREENHOUSE</h2>
+      <hr className={styles.line}/>
+      <p>We provide greenhouses equipped with advanced climate control and irrigation systems. Along with the technology, farmers receive training and support to effectively manage their greenhouses, optimize crop growth, and protect their produce from adverse weather conditions</p>
+      </div>
+    </header>
     <div className={`container ${styles.aboutContainer}`}>
       <article className={styles.aboutImage}>
         <Image src={AboutImage} alt=''/>

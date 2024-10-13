@@ -87,7 +87,7 @@ const Catalog = () => {
                 <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
             </div>
     </div>
-    <div className={styles.catalogCon}>
+    {/* <div className={styles.catalogCon}>
       <div className={styles.catalogImg}>
         <Link href='/contact' className={styles.catalogLink}>
         <Image src={Product5} alt="" />
@@ -102,7 +102,7 @@ const Catalog = () => {
         <div className={styles.headerCta}>
                 <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
             </div>
-    </div>
+    </div> */}
     </div>
 </section>
 

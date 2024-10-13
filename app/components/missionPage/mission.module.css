@@ -38,11 +38,11 @@
 
 .header {
     width: 100%;
-    min-height: 70vh;
-    background-image: url('../assets/slid3.png');
+    min-height: 100vh;
+    background-image: url('../../assets/slid3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -7rem;
+    margin-top: 7rem;
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
@@ -96,6 +96,72 @@
     gap: 1.2rem;
     align-items: center;
     justify-content: center;
+}
+
+/* misson cards */
+
+.bigContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.title{ 
+    text-align:center; 
+    font-size:32px; 
+    text-transform:uppercase; 
+    font-weight:bold
+}
+
+
+.catalogCon { 
+    background: #fff;
+    box-shadow: 
+        0 6px 15px rgba(0, 0, 0, 0.15), inset 0 2px 5px #0000000d;
+    transition: all ease-in 0.3s;
+    width: 330px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+.catalogText {
+    padding:10px;
+    font-size: 25px;
+    color: #35B729;
+    font-weight: bold;
+}
+.catalogCon h3{
+    font-size: 16px;
+    color: grey;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 600px) {
+   
+   .section{
+    margin-top: -7rem;
+  
+}
+    .bigContainer{
+        display: flex;
+        flex-direction: column;
+      
+    }    
+    .productText{ 
+        text-align:center; 
+        line-height:20px; 
+        color:#8b8b8b; 
+        width:300px; 
+        
+    }
+    .catalogCon { 
+    width: 350px;
+   
+}
 }
 
 
