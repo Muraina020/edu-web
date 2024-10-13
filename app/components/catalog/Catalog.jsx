@@ -1,36 +1,35 @@
 import React from 'react'
 import styles from "./catalog.module.css"
 import Link from 'next/link'
-import Product8 from "../../assets/product8.png"
-import Product7 from "../../assets/product7.png"
-import Flower1 from "../../assets/flower1.jpg"
-import Flower2 from "../../assets/flower2.jpg"
-import Product1 from "../../assets/product1.png"
-import Product2 from "../../assets/product2.png"
-import Product3 from "../../assets/product3.png"
-import Product4 from "../../assets/product4.png"
+import Design6 from "../../assets/design6.jpg"
+import Design8 from "../../assets/design8.jpg"
+import Design9 from "../../assets/design9.jpeg"
 import Product5 from "../../assets/product5.png"
-import Product6 from "../../assets/product6.png"
+import Design4 from "../../assets/design4.jpg"
+import Design5 from "../../assets/design5.jpg"
+import Design1 from "../../assets/design1.jpg"
+import Design7 from "../../assets/design7.jpg"
+
 
 import Image from 'next/image'
 
 const Catalog = () => {
   return (
     <section className={`container ${styles.catalog}`}>
-       <h2 className={styles.title}>Greenhouse Services</h2>
+       <h2 className={styles.title}>Greenhouse </h2>
        <p className={styles.productText}>we provide greenhouses equipped with advanced climate control and irrigation systems. Along with the technology, farmers receive training and support to effectively manage their greenhouses, optimize crop growth, and protect their produce from adverse weather conditions</p>
        <div className={styles.bigCatContainer}>
     <div className={styles.catalogCon}>
       <div className={styles.catalogImg}>
         <Link href='/contact' className={styles.catalogLink}>
-        <Image src={Product7} alt="" />
+        <Image src={Design8} alt="" />
         </Link>
         <Link href='/contact' className={styles.catalogHover}>
-        <Image src={Product8} alt="" />
+        <Image src={Design6} alt="" />
         </Link>
        </div>
       <div className={styles.catalogText}>
-        <a href="/contact">multi span greenhouse</a>
+        <a href="/contact">Tunnel greenhouse</a>
         </div>
         <div className={styles.headerCta}>
                 <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
@@ -40,69 +39,53 @@ const Catalog = () => {
     <div className={styles.catalogCon}>
       <div className={styles.catalogImg}>
         <Link href='/contact' className={styles.catalogLink}>
-        <Image src={Flower1} alt="" />
+        <Image src={Design9} alt="" />
         </Link>
         <Link href='/contact' className={styles.catalogHover}>
-        <Image src={Flower2} alt="" />
-        </Link>
-       </div>
-      <div className={styles.catalogText}>
-        <a href="/contact">tomato hydroponics system</a>
-        </div>
-        <div className={styles.headerCta}>
-                <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
-            </div>
-    </div>
-
-    <div className={styles.catalogCon}>
-      <div className={styles.catalogImg}>
-        <Link href='/contact' className={styles.catalogLink}>
-        <Image src={Product1} alt="" />
-        </Link>
-        <Link href='/contact' className={styles.catalogHover}>
-        <Image src={Product2} alt="" />
-        </Link>
-       </div>
-      <div className={styles.catalogText}>
-        <a href="/contact">multi span greenhouse</a>
-        </div>
-        <div className={styles.headerCta}>
-                <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
-            </div>
-    </div>
-
-    <div className={styles.catalogCon}>
-      <div className={styles.catalogImg}>
-        <Link href='/contact' className={styles.catalogLink}>
-        <Image src={Product3} alt="" />
-        </Link>
-        <Link href='/contact' className={styles.catalogHover}>
-        <Image src={Product4} alt="" />
-        </Link>
-       </div>
-      <div className={styles.catalogText}>
-        <a href="/contact">multi span greenhouse</a>
-        </div>
-        <div className={styles.headerCta}>
-                <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
-            </div>
-    </div>
-    {/* <div className={styles.catalogCon}>
-      <div className={styles.catalogImg}>
-        <Link href='/contact' className={styles.catalogLink}>
         <Image src={Product5} alt="" />
         </Link>
-        <Link href='/contact' className={styles.catalogHover}>
-        <Image src={Product6} alt="" />
-        </Link>
        </div>
       <div className={styles.catalogText}>
-        <a href="/contact">Tower hydroponic</a>
+        <a href="/contact">hydroponic</a>
         </div>
         <div className={styles.headerCta}>
                 <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
             </div>
-    </div> */}
+    </div>
+
+    <div className={styles.catalogCon}>
+      <div className={styles.catalogImg}>
+        <Link href='/contact' className={styles.catalogLink}>
+        <Image src={Design4} alt="" />
+        </Link>
+        <Link href='/contact' className={styles.catalogHover}>
+        <Image src={Design5} alt="" />
+        </Link>
+       </div>
+      <div className={styles.catalogText}>
+        <a href="/contact">Polycarbonate greenhouse</a>
+        </div>
+        <div className={styles.headerCta}>
+                <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
+            </div>
+    </div>
+
+    <div className={styles.catalogCon}>
+      <div className={styles.catalogImg}>
+        <Link href='/contact' className={styles.catalogLink}>
+        <Image src={Design7} alt="" />
+        </Link>
+        <Link href='/contact' className={styles.catalogHover}>
+        <Image src={Design1} alt="" />
+        </Link>
+       </div>
+      <div className={styles.catalogText}>
+        <a href="/contact">multi span greenhouse</a>
+        </div>
+        <div className={styles.headerCta}>
+                <Link href='/contact' className={styles.ctaBtn}>Contact</Link>
+            </div>
+    </div>
     </div>
 </section>
 
