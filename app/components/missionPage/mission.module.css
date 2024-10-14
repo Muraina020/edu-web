@@ -98,9 +98,10 @@
     font-weight: bold;
 }
 .catalogCon h3{
-    font-size: 16px;
+    font-size: 4rem;
     color: grey;
-    line-height: 1.2;
+    color: #35B729;
+   
 }
 
 @media screen and (max-width: 600px) {

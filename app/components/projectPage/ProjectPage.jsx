@@ -2,12 +2,12 @@ import React from 'react'
 import styles from "./projectPage.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
-import Green3 from "../../assets/green3.png"
+import Green1 from "../../assets/green1.png"
 import Green6 from "../../assets/green6.png"
 import Green8 from "../../assets/green8.png"
 import Green2 from "../../assets/green2.png"
+import Green3 from "../../assets/green3.png"
 import Green5 from "../../assets/green5.png"
-import Green4 from "../../assets/green4.png"
 
 
 const ProjectPage = () => {
@@ -18,21 +18,21 @@ const ProjectPage = () => {
        <div className={`container ${styles.bigContainer}`}>
     <div className={styles.catalogCon}>
       <div href='/services' className={styles.catalogImg}>
-        <Image src={Green6} alt="" />
+        <Image src={Green2} alt="" />
         </div>
         <span className={styles.catalogText}>Green House Covering</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={Green2} alt="" />
+        <Image src={Green6} alt="" />
         </Link>
         <span className={styles.catalogText}>Hydroponic System</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={Green3} alt="" />
+        <Image src={Green1} alt="" />
         </Link>
-        <span className={styles.catalogText}>Automated Nutrient Control EC&PH</span>
+        <span className={styles.catalogText}>Hand drawn doodle camp tent Vector clipart</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
@@ -42,15 +42,15 @@ const ProjectPage = () => {
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={Green5} alt="" />
+        <Image src={Green3} alt="" />
         </Link>
-        <span className={styles.catalogText}>Automated Irrigation Control</span>
+        <span className={styles.catalogText}>Automated Nutrient Control</span>
     </div>
     <div className={styles.catalogCon}>
       <Link href='/services' className={styles.catalogImg}>
-        <Image src={Green4} alt="" />
+        <Image src={Green5} alt="" />
         </Link>
-        <span className={styles.catalogText}>Automated Climate Control</span>
+        <span className={styles.catalogText}> Tent barn construction building wireframe</span>
     </div>
     </div>
 </section>

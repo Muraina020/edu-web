@@ -16,7 +16,7 @@ import Image from 'next/image'
 const Catalog = () => {
   return (
     <section className={`container ${styles.catalog}`}>
-       <h2 className={styles.title}>Greenhouse </h2>
+       <h2 className={styles.title}>Deryne greenhouse</h2>
        <p className={styles.productText}>we provide greenhouses equipped with advanced climate control and irrigation systems. Along with the technology, farmers receive training and support to effectively manage their greenhouses, optimize crop growth, and protect their produce from adverse weather conditions</p>
        <div className={styles.bigCatContainer}>
     <div className={styles.catalogCon}>
