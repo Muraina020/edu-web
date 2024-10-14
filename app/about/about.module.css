@@ -19,9 +19,19 @@
     }
 }
 
+.aboutContent h3{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #3e3e3e;
+}
 .aboutContent p{
-  margin-top: 0.8rem;
-  font-size: 18px;
+  font-family: inherit;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
 }
 .aboutCta{
     display: inline-block;

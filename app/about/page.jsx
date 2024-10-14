@@ -7,7 +7,7 @@ import AboutImage from "../assets/abt.jpeg"
 const page = () => {
   return (
     <section>
-    <SectionHeader title="About Me" subtitle="Who are we and what we do"/>
+    <SectionHeader title="About Us" subtitle="Get to know Who are we and what we do"/>
     <header className={`container ${styles.header}`}>
       <div className={`container ${styles.headerText}`}>
       <h2>ABOUT DERYNE GREENHOUSE</h2>
