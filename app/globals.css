@@ -205,10 +205,9 @@ main.dark .swiper-pagination-bullet.swiper-pagination-bullet-active {
 input, textarea{
   width: 100%;
   display: block;
-  background: #7e7e7e;
+  background: gray;
   padding: 0.5rem;
   color: white;
-  border:#888888 solid 1px;
   outline: 0;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
@@ -258,11 +257,12 @@ textarea::placeholder {
   .btn {
     display: inline-block;
     /* background: var(--color-gray-0); */
-    background-color: #8e9093;
+    background-color: gray;
     padding: 0.5rem 3.5rem;
     width: fit-content;
     cursor: pointer;
     transition: var(--transition);
     color: white;
+    border: none;
   }
 }
