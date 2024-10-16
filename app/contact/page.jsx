@@ -3,6 +3,7 @@ import styles from "./contact.module.css"
 import Social from './Social'
 import ContactForm from './ContactForm'
 import SectionHeader from '../components/section-header/SectionHeader'
+import FormContact from './FormContact'
 
 const page = () => {
   return (
@@ -11,7 +12,7 @@ const page = () => {
       <div className={`container ${styles.container}`}>
         <article className={styles.sociaForm}>
     <Social/>
-    <ContactForm/>
+    <FormContact/>
     </article>
     </div>
     </section>

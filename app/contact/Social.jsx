@@ -14,10 +14,10 @@ const Social = () => {
        <a href="https://wa.me/+250787552411" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
       <BsWhatsapp  className={styles.contactIcon}/>
     </a>
-    <a href="https://twitter.com/@Derynegreenho" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
+    <a href="https://x.com/Derynegreenho/status/1838610423165194628" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
       <FaXTwitter className={styles.contactIcon}/>
     </a>
-    <a href="https://www.instagram.com/derynegreenhouse1" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
+    <a href="https://www.instagram.com/p/DBLj27Ats5Y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
       < FaInstagram  className={styles.contactIcon}/>
     </a>
     </div>
