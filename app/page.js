@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './components/header/Header'
 import Catalog from './components/catalog/Catalog'
 import Testimonials from './components/testimonials/Testimonials'
 import ProjectPage from './components/projectPage/ProjectPage'

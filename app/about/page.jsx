@@ -17,7 +17,24 @@ const page = () => {
     </header>
     <div className={`container ${styles.aboutContainer}`}>
       <article className={styles.aboutImage}>
-        <Image src={AboutImage} alt=''/>
+        <h2 className={styles.aboutTitle}>DERYN GREENHOUSE SERVICES</h2>
+        <hr className={styles.line}/>
+        <div className={styles.card1}>
+        <div className={styles.catalogCon}>
+          <h4>BUILD</h4>
+        <span className={styles.catalogText}>We build smart greenhouse of a good quality at affordable prices</span>
+    </div>
+        <div className={styles.catalogCon}>
+          <h4>LEASE</h4>
+        <span className={styles.catalogText}>We rent greenhouse at affordsble prices with full mentorship and guidance</span>
+    </div>
+    </div>
+    <div className={styles.card2}>
+        <div className={styles.catalogCon}>
+          <h4>TRAINING</h4>
+        <span className={styles.catalogText}>We offer strategies to manage pests and diseases, keeping your crops healthy and productive</span>
+    </div>
+    </div>
       </article>
       <article className={styles.aboutContent}>
         <h3>About Deryne Greenhouse</h3>

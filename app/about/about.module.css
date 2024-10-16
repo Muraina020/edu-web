@@ -1,50 +1,10 @@
 .aboutContainer{
     display: grid;
-    grid-template-columns: 40% 50%;
-    gap: 10%;
+    grid-template-columns: 45% 50%;
+    gap: 5%;
     margin-bottom: 4rem;
 }
-.aboutImage{
-    height: 30rem;
-    overflow: hidden;
-    object-fit: fill;
-    display: grid;
-    place-items: center;
-    opacity: 0;
-    animation: identifier 2s ease forwards;
-}
-@keyframes identifier {
-    to{
-        opacity: 1;
-    }
-}
 
-.aboutContent h3{
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.7rem;
-  font-weight: 700;
-  color: #3e3e3e;
-}
-.aboutContent p{
-  font-family: inherit;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 1.2rem;
-}
-.aboutCta{
-    display: inline-block;
-    margin-top: 2.5rem;
-}
-
-
-@media screen and (max-width: 600px) {
-    .aboutContainer{
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
-}
 
 .header {
     width: 100%;
@@ -109,7 +69,99 @@
 }
 
 
+.aboutImage {
+    position: relative; /* To allow positioning of the pseudo-element */
+    height: 40rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1; /* Ensures the content appears above the background */
+  }
+  
+  .aboutImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
+      url('../assets/training.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Keeps the background behind the content */
+    animation: identifier 2s ease forwards;
+  }
+  .aboutTitle{
+    font-size: 1.9rem;
+    color: white;
+    text-align: center;
+  }
+  
+.catalogCon{
+    background: rgb(2, 67, 2);
+    color: white;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.catalogCon:hover{
+    background: rgb(1, 96, 1);
+}
+.catalogCon h4{
+    color: white;
+}
+.catalogCon span{
+    font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: lightgrey;
+}
+.card1{
+    display: flex;
+    gap: 1rem;
+}
+
+@keyframes identifier {
+    to{
+        opacity: 1;
+    }
+}
+
+.aboutContent h3{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #3e3e3e;
+}
+.aboutContent p{
+  font-family: inherit;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+
+
+
 @media screen and (max-width: 600px) {
+    .aboutContainer{
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
    .header{
     margin-top: 1rem;
    }
@@ -124,5 +176,10 @@
     .headerText p{
         font-size: 17px;
     }
+    .card1{
+        display: flex;
+        gap: 10px;
+    }
    
 }
+

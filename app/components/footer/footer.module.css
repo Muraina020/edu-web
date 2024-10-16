@@ -1,7 +1,7 @@
 .footer{
     width:100%; 
-    /* background-color:#01273a;  */
-    background-color: #264501;
+    /* background-color: #264501; */
+    background: rgb(3, 49, 3);
     margin:0px; 
     padding: 1.5rem;
     color: white;
@@ -59,19 +59,19 @@
 
 .footerCopyright{
     /* background-color:  #01202f; */
-    background-color: #407401;
+    /* background-color: #407401; */
+    background: #264501;
     text-align: center;
     padding: 1rem;
     display: block;
-    /* border-top: 1px solid var(--color-gray-300); */
     margin-top: 2rem;
     width: 100%;
     font-size: 1.2rem;
 
 }
-.contactBtn{
+/* .contactBtn{
     background-color: #9dd05a;
-}
+} */
 
 
 @media screen and (max-width: 600px) {

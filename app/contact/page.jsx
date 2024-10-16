@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./contact.module.css"
 import Social from './Social'
-import ContactForm from './ContactForm'
 import SectionHeader from '../components/section-header/SectionHeader'
 import FormContact from './FormContact'
 

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Design6 from "../../assets/design6.jpg"
 import Design8 from "../../assets/design8.jpg"
 import Design9 from "../../assets/design9.jpeg"
-import Product5 from "../../assets/product5.png"
+import Product1 from "../../assets/product1.png"
 import Design4 from "../../assets/design4.jpg"
 import Design5 from "../../assets/design5.jpg"
 import Design1 from "../../assets/design1.jpg"
@@ -42,7 +42,7 @@ const Catalog = () => {
         <Image src={Design9} alt="" />
         </Link>
         <Link href='/contact' className={styles.catalogHover}>
-        <Image src={Product5} alt="" />
+        <Image src={Product1} alt="" />
         </Link>
        </div>
       <div className={styles.catalogText}>

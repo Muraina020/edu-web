@@ -4,6 +4,8 @@ import Call from "../../assets/call.png";
 import Mail from "../../assets/mail.png";
 import LocationIcon from "../../assets/locationIcon.png";
 import Image from "next/image";
+// import Footer from "./FormFooter"
+import FormFooter from "./FormFooter";
 
 const Footer = () => {
   return (
@@ -34,31 +36,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className={styles.contactRight}>
-          <h2>For Enquiry</h2>
-          <form>
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter your name"
-              required
-            />
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Enter your phone number"
-              required
-            />
-            <textarea
-              name="message"
-              id=""
-              rows=""
-              placeholder="Enter your Message"
-              required
-            ></textarea>
-            <button type="submit" className={`btn ${styles.contactBtn}`}>
-              Submit
-            </button>
-          </form>
+          <FormFooter/>
         </div>
       </div>
       <small className={styles.footerCopyright}>
