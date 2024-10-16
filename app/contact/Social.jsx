@@ -25,7 +25,7 @@ const Social = () => {
     <a href="https://www.facebook.com/profile.php?id=61565251337323" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
       <FaFacebookSquare className={styles.contactIcon}/>
     </a>
-    <a href="https://www.linkedin.com/deryne-greenhouse" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
+    <a href="https://www.linkedin.com/posts/deryne-greenhouse_deryne-greenhouse-linkedin-activity-7241087552114360320-dveM?utm_source=share&utm_medium=member_android" className={styles.contactOption} target='_blank' rel='noopener noreferrer'>
       < FaLinkedin  className={styles.contactIcon}/>
     </a>
     </div>

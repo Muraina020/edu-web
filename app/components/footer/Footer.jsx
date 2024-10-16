@@ -29,7 +29,7 @@ const Footer = () => {
             <li>
               {" "}
               <Image src={Mail} alt="call" className={styles.footerImg} />
-              Email: adelineniwenshuti@gmail.com
+              Email: niwenshutiadeline96@gmail.com
             </li>
           </ul>
         </div>
